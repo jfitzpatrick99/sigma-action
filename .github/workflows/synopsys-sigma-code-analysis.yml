@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  sigma_analysis:
+    runs-on: ubuntu-latest
+    name: Analyze repository using the SIGMA Analysis Engine
+    steps:
+    - name: SIGMA Analysis step
+      id: sigma
+      uses: jfitzpatrick99/sigma-action@v1
+      with:
+        who-to-greet: 'Mona the Octocat'
+    # Use the output from the SIGMA step
+    - name: Get the output time
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
