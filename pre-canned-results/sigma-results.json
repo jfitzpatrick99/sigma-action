@@ -1,0 +1,145 @@
+{
+  "defects": {
+    "created": "2020-12-10T16:37:36.822479869Z",
+    "defects": [
+      {
+        "name": "android_outdated",
+        "uuid": "fa5eddff-2b25-5f8d-8ca7-5cba770d89ad",
+        "desc": "The application is not configured to target the latest Android operating system version, as is best practice",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/InsecureBankv2/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          },
+          "end": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          }
+        }
+      },
+      {
+        "name": "backups_allowed",
+        "uuid": "0216e3df-051a-598a-845f-88d74eb7c0f8",
+        "desc": "The Android application is configured to allow its data to be backed up",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/InsecureBankv2/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 23,
+            "column": 4,
+            "byte": 1298
+          },
+          "end": {
+            "line": 89,
+            "column": 18,
+            "byte": 3611
+          }
+        }
+      },
+      {
+        "name": "android_outdated",
+        "uuid": "fa5eddff-2b25-5f8d-8ca7-5cba770d89ad",
+        "desc": "The application is not configured to target the latest Android operating system version, as is best practice",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/wip-attackercode/ExploitAES/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          },
+          "end": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          }
+        }
+      },
+      {
+        "name": "backups_allowed",
+        "uuid": "e4850932-76ab-57fe-9f9d-a52f9414021d",
+        "desc": "The Android application is configured to allow its data to be backed up",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/wip-attackercode/ExploitAES/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 4,
+            "column": 4,
+            "byte": 156
+          },
+          "end": {
+            "line": 18,
+            "column": 18,
+            "byte": 678
+          }
+        }
+      },
+      {
+        "name": "android_outdated",
+        "uuid": "fa5eddff-2b25-5f8d-8ca7-5cba770d89ad",
+        "desc": "The application is not configured to target the latest Android operating system version, as is best practice",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/wip-attackercode/SniffIntents/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          },
+          "end": {
+            "line": 0,
+            "column": 0,
+            "byte": 0
+          }
+        }
+      },
+      {
+        "name": "backups_allowed",
+        "uuid": "e4850932-76ab-57fe-9f9d-a52f9414021d",
+        "desc": "The Android application is configured to allow its data to be backed up",
+        "severity": {
+          "level": "Low",
+          "impact": "Low",
+          "likelihood": "Medium"
+        },
+        "filepath": "/data/Android-InsecureBankv2/wip-attackercode/SniffIntents/app/src/main/AndroidManifest.xml",
+        "location": {
+          "start": {
+            "line": 4,
+            "column": 4,
+            "byte": 158
+          },
+          "end": {
+            "line": 26,
+            "column": 18,
+            "byte": 932
+          }
+        }
+      }
+    ]
+  }
+}

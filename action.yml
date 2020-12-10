@@ -1,15 +1,9 @@
 name: 'SIGMA Analysis'
 description: 'Analyze a repository using the SIGMA analysis engine.'
-inputs:
-    who-to-greet:
-        description: 'Who to greet'
-        required: true
-        default: 'World'
 outputs:
-    time:
-        description: 'The time we greeted you'
+    results:
+        description: 'File containing the results'
 runs:
     using: 'docker'
     image: 'Dockerfile'
-    args:
-        - ${{ inputs.who-to-greet }}
+

@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
-echo "Hello $1"
-time=$(date)
-echo "::set-output name=time::$time"
+cp /pre-canned-results/sigma-results.json /sigma-results.json
+results=/sigma-results.json
+echo "::set-output name=results::$results"
