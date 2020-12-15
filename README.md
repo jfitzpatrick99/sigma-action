@@ -4,19 +4,18 @@ This action analyzes a repository using the SIGMA analysis engine.
 
 ## Inputs
 
-### `who-to-greet`
-
-**Required** The name of the person to greet.  Default `"World"`.
+None.
 
 ## Outputs
 
-### `time`
+### `results`
 
-The time we greeted you.
+File containing the analysis results.
 
 ## Example Usage
 
-uses: actions/sigma-action@v1
-with:
-  who-to-greet: 'Mona the Octocat'
+uses: jfitzpatrick99/sigma-action@v3
+# Use the output from the SIGMA step
+  - name: Get the results file
+    run: echo "Results written to ${{ steps.sigma.outputs.results }}"
 
